@@ -50,7 +50,7 @@ function myFunction() {
 
 function copy(id, btn) {
   var copyText = id.innerHTML;
-  navigator.clipboard.writeText(copyText + "");
+  navigator.clipboard.writeText((copyText + "").trim());
   btn.innerText = "Copied !!";
   btn.classList.add("btn-warning");
   setTimeout(
