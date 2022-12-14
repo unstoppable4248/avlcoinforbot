@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css?family=Sarala");
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #f1ede7;
+    margin: 0;
+}
+
+.navigation {
+    width: 100%;
+    background-color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo {
+    width: 35px;
+    margin: 10px;
+}
+
+#container {
+    text-align: center;
+}
+
+#username {
+    color: hotpink;
+    margin-bottom: 30px;
+}
+
+h4 {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    font-size: 35px;
+    text-decoration-line: underline !important;
+    text-underline-offset: 10px;
+
+}
+
+.uu {
+    margin: 10px;
+}
+
+.success {
+    width: 100px;
+}
+
+#success_container {
+    text-align: center;
+    display: none;
+}
+
+#search {
+    margin-left: 70%;
+    width: 300px;
+    height: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#myTable {
+    background-color: white !important;
+    width: 80vw;
+}
+
+td,
+th {
+    padding: 15px !important;
+    border-top: 0.1px solid #c09d6a;
+    border-right: 0.1px solid rgb(222, 100, 220);
+    border-bottom: 0.1px solid #c09d6a;
+    border-left: 0.1px solid  rgb(222, 100, 220);
+}
+
+
+#copy {
+    color: aqua !important;
+    background-color: blanchedalmond;
+}
+
+button {
+    transition: all 0.001s !important;
+}
